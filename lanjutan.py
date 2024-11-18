@@ -1,7 +1,7 @@
 import sqlite3
 from tkinter import Tk, Label, Entry, Button, StringVar, messagebox, ttk
 
-# Fungsi untuk membuat database dan tabel
+# Fungsi untuk membuat database dan tabell
 def create_database():
     conn = sqlite3.connect('nilai_siswa.db')
     cursor = conn.cursor()
